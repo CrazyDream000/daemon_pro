@@ -1,0 +1,28 @@
+{
+	"info": {
+		"_postman_id": "af5d360b-e93a-4d0e-9896-7421147e3ef3",
+		"name": "dns_client",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "client cronjob call",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:13131/cronjob",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "13131",
+					"path": [
+						"cronjob"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
